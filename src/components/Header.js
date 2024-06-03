@@ -7,7 +7,7 @@ const Header = () => {
   const handleToggle = () => setToggle(!toggle);
 
   return (
-    <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
+    <header className="flex justify-between px-5 py-3 bg-primary text-white fixed w-full z-10">
       <a href="/" className="logo text-2xl font-bold text-accent">
         GOPI SHANKAR RAVADY
       </a>
@@ -19,22 +19,22 @@ const Header = () => {
             <a href="/#about">About</a>
           </li>
           <li>
+            <a href="/#skills">Skills</a>
+          </li>
+          <li>
+            <a href="/#education">Education</a>
+          </li>
+          <li>
+            <a href="/#experience">Professional Experience</a>
+          </li>
+          <li>
             <a href="/#projects">Projects</a>
-          </li>
-          <li>
-            <a href="/#blog">Skills</a>
-          </li>
-          <li>
-            <a href="/#blog">Education</a>
-          </li>
-          <li>
-            <a href="/#blog">Professional Experience</a>
           </li>
           <li>
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="#resume -link" target="_blank" without rel="noreferrer">
+            <a href="#resume-link" target="_blank" without rel="noreferrer">
               Resume
             </a>
           </li>
