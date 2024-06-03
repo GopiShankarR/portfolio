@@ -1,5 +1,5 @@
 import React from "react";
-// import HeroImg from "../assets/hero-img.png";
+import HeroImg from "../assets/image.jpg";
 
 import {
   AiOutlineLinkedin,
@@ -16,8 +16,10 @@ const Hero = () => {
             Hi, <br />I am Gopi <br />
           </h1>
 
-          <p className="py-5">
-            A Computer Science Graduate Student at Illinois Tech
+          <p className="font-serif py-5">
+          I'm a Computer Science graduate student at Illinois Tech, with a strong desire for software development. 
+          I am currently seeking software developer roles where I can apply my skills and knowledge to create innovative solutions. 
+          Let's connect and build something amazing together!
             <br></br>
           </p>
 
@@ -50,13 +52,13 @@ const Hero = () => {
           </a>
         </div>
 
-        {/* <div className="hero-img">
+        <div className="hero-img">
           <img
             src={HeroImg}
             alt="coding illustration"
-            className="lgw-[80%] ml-auto"
+            class="object-scale-down h-58 w-96"
           />
-        </div> */}
+        </div>
       </div>
     </section>
   );
