@@ -68,7 +68,7 @@ const Projects = () => {
           </h2>
 
           <p className="pb-5">
-            These are some of my projects I have done from my undergraduate course.
+            These are some of my projects I have done from my undergraduate course until now.
           </p>
         </div>
       </div>
