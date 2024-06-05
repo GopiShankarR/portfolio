@@ -3,17 +3,19 @@ import React from "react";
 const Education = () => {
   const education = [
     {
+      institution: "Illinois Institute of Technology",
+      degree: "Master's in Computer Science",
+      gpa: "GPA: 3.5",
+      period: "2023 - 2025",
+      coursework: ["Advanced Database Organization", "Computer Networks", "Mobile Applications Development", "Big Data Technologies", "Design and Analysis of Algorithms", "Machine Learning"],
+    },
+    {
       institution: "Coimbatore Institute of Technology",
       degree: "Bachelor of Technology in Information Technology",
+      gpa: "GPA: 3.4",
       period: "2017 - 2021",
       coursework: ["Data Structures and Algorithms", "C Programming", "Databases", "Data Warehousing", "Cloud Virtualization", "Computer Architecture", "Operating Systems"],
     },
-    {
-      institution: "Illinois Institute of Technology",
-      degree: "Master's in Computer Science",
-      period: "2023 - 2025",
-      coursework: ["Advanced Database Organization", "Computer Networks", "Mobile Applications Development", "Big Data Technologies", "Design and Analysis of Algorithms", "Machine Learning"],
-    }
   ];
 
   return (
@@ -27,12 +29,13 @@ const Education = () => {
 
         <div className="container mx-auto grid md:grid-cols-2 gap-10">
           {education.map((edu, i) => (
-            <div key={i} className="bg-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-100">
-              <h3 className="text-2xl font-sans mb-2">{edu.institution}</h3>
-              <p className="text-xl text-sans-600 mb-1">{edu.degree}</p>
-              <p className="text-white mb-3">{edu.period}</p>
-              <p className="text-white mb-4">Coursework:</p>
-              <div className="text-white mb-4 grid grid-cols-1 gap-1">
+            <div key={i} className="bg-white p-6 rounded-lg shadow-2xl hover:shadow-xl text-black transition-shadow duration-100 border border-solid-black">
+              <h3 className="text-2xl font-serif mb-2">{edu.institution}</h3>
+              <p className="text-xl text-serif-600 mb-1">{edu.degree}</p>
+              <p className="text-black font-normal text-serif">{edu.gpa}</p>
+              <p className="text-black mb-3">{edu.period}</p>
+              <p className="text-black mb-4">Coursework:</p>
+              <div className="text-black mb-4 grid grid-cols-1 gap-1">
                 {edu.coursework.map((course, index) => (
                   <div key={index} className="border-b border-gray-200 py-1">{course}</div>
                 ))}
