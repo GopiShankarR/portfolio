@@ -33,7 +33,7 @@ const Experience = () => {
     <section className="bg-primary text-white px-5 py-32" id="experience">
       <div className="container mx-auto">
         <div className="about-info mb-10">
-          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
+          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[190px] border-indigo-600 pb-2">
             Experience
           </h2>
         </div>
