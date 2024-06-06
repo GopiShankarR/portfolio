@@ -60,7 +60,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className="bg-primary text-white px-5 py-32" id="projects">
+    <section className="bg-primary text-black px-5 py-32" id="projects">
       <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
         <div className="about-info mb-5">
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
@@ -75,18 +75,18 @@ const Projects = () => {
 
       <div className="projects container mx-auto grid md:grid-cols-4 gap-10">
         {projects.map((project, i) => (
-          <div key={i} className="relative group w-full h-96 overflow-hidden bg-black m-auto">
+          <div key={i} className="relative group w-full h-96 overflow-hidden bg-white m-auto">
             <div className="absolute w-full h-full flex flex-col items-center justify-center p-5">
               <div className="absolute inset-0 flex flex-col items-center justify-center transform duration-500 group-hover:-translate-y-full">
-                <p className="capitalize font-serif font-bold text-2xl text-center shadow-2xl text-white">{project.title}</p>
-                <p className="font-serif text-center w-4/5 text-white mt-2">{project.languages}</p>
+                <p className="capitalize font-serif font-bold text-2xl text-center text-black">{project.title}</p>
+                <p className="font-serif text-center w-4/5 text-black mt-2">{project.languages}</p>
               </div>
               <div className="absolute inset-0 flex flex-col items-center justify-center transform translate-y-full duration-500 group-hover:translate-y-0">
-                <p className="font-serif text-center w-4/5 text-white">{project.shortdesc}</p>
+                <p className="font-serif text-center w-4/5 text-black">{project.shortdesc}</p>
                 <br></br>
-                <p className="font-serif text-center w-4/5 text-white">{project.desc}</p>
+                <p className="font-serif text-center w-4/5 text-black">{project.desc}</p>
                 {project.code && (
-                  <a href={project.code && project.code} target="_blank" className="mt-4 bg-white text-black font-bold rounded-lg h-10 w-48 flex items-center justify-center">
+                  <a href={project.code && project.code} target="_blank" rel="noopener noreferrer" className="mt-4 bg-indigo-600 text-black font-bold rounded-lg py-2 px-4 hover:bg-indigo-700 transition duration-300 ease-in-out">
                     Code
                   </a>
                 )}
