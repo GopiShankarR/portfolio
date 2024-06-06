@@ -13,13 +13,13 @@ function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <About />
-      <Skills />
-      <Education />
-      <Experience />
-      <Projects />
-      <Contact />
+      <Hero id="home" />
+      <About id="about" />
+      <Skills id="skills" />
+      <Education id="education" />
+      <Experience id="experience" />
+      <Projects id="projects" />
+      <Contact id="contact" />
       <Footer />
     </>
   );
