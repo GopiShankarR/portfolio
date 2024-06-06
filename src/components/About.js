@@ -14,7 +14,7 @@ const About= () => {
             I am proficient in Frontend skills like Vue.js, Flutter, HTML, CSS, JavaScript, Tailwind CSS and currently I'm learning React.js.
           </p>
 
-          <p>In the Backend, I have learned Node.js, Nest.js, Ruby, C++, MySQL, and MongoDB</p>
+          <p className="font-serif pb-2">In the Backend, I have learned Node.js, Nest.js, Ruby, C++, MySQL, and MongoDB</p>
         </div>
       </div>
 
