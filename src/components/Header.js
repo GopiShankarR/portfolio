@@ -16,22 +16,22 @@ const Header = () => {
       <nav className="hidden md:block">
         <ul className="flex">
           <li>
-            <a href="/#about">About</a>
+            <a href="/portfolio/#about">About</a>
           </li>
           <li>
-            <a href="/#skills">Skills</a>
+            <a href="/portfolio/#skills">Skills</a>
           </li>
           <li>
-            <a href="/#education">Education</a>
+            <a href="/portfolio/#education">Education</a>
           </li>
           <li>
-            <a href="/#experience">Professional Experience</a>
+            <a href="/portfolio/#experience">Professional Experience</a>
           </li>
           <li>
-            <a href="/#projects">Projects</a>
+            <a href="/portfolio/#projects">Projects</a>
           </li>
           <li>
-            <a href="/#contact">Contact</a>
+            <a href="/portfolio/#contact">Contact</a>
           </li>
           <li>
             <a href="https://drive.google.com/file/d/1tgSVKP7x6ncs6MzxoKcRzF96zgJm_yLL/view?usp=sharing">
@@ -46,17 +46,23 @@ const Header = () => {
         className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}
       >
         <ul className="flex flex-col">
-          <li>
-            <a href="/#about">About</a>
+        <li>
+            <a href="/portfolio/#about">About</a>
           </li>
           <li>
-            <a href="/#projects">Projects</a>
+            <a href="/portfolio/#skills">Skills</a>
           </li>
           <li>
-            <a href="/#blog">Blog</a>
+            <a href="/portfolio/#education">Education</a>
           </li>
           <li>
-            <a href="/#contact">Contact</a>
+            <a href="/portfolio/#experience">Professional Experience</a>
+          </li>
+          <li>
+            <a href="/portfolio/#projects">Projects</a>
+          </li>
+          <li>
+            <a href="/portfolio/#contact">Contact</a>
           </li>
           <li>
             <a href="https://drive.google.com/file/d/1tgSVKP7x6ncs6MzxoKcRzF96zgJm_yLL/view?usp=sharing">Resume</a>

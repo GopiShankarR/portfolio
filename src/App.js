@@ -1,7 +1,6 @@
 import './App.css';
 import Header from './components/Header';
 import Contact from './components/Contact';
-import { Routes, Route} from "react-router-dom";
 import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
