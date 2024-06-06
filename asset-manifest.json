@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.fdd75a39.css",
+    "main.js": "/portfolio/static/js/main.7b97fe14.js",
+    "static/media/image.jpg": "/portfolio/static/media/image.386e5bcbfa4cacfa5df2.jpg",
+    "static/media/codepipeline.png": "/portfolio/static/media/codepipeline.9886866461758aab099c.png",
+    "static/media/python.png": "/portfolio/static/media/python.f9dc70303b81180b774d.png",
+    "static/media/C-language.png": "/portfolio/static/media/C-language.c0da8156a8d17281c29e.png",
+    "static/media/s3.png": "/portfolio/static/media/s3.c6677b4f590f9fe26663.png",
+    "static/media/c++.png": "/portfolio/static/media/c++.d29dcbab9dc538d6961d.png",
+    "static/media/ruby-on-rails.png": "/portfolio/static/media/ruby-on-rails.a272444fee188c3c05c4.png",
+    "static/media/restapi.jpeg": "/portfolio/static/media/restapi.1d50d739fe712d115781.jpeg",
+    "static/media/kafka.jpg": "/portfolio/static/media/kafka.70b066f4895c298b9b13.jpg",
+    "static/media/emr.png": "/portfolio/static/media/emr.4c0f06beaa03aa8ac3e2.png",
+    "static/media/cloudwatch.jpg": "/portfolio/static/media/cloudwatch.5addb05756c2c0f0cd77.jpg",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.ae35ab7f9b8e48760129.png",
+    "static/media/lambda.jpg": "/portfolio/static/media/lambda.d7374193b93f6289e34d.jpg",
+    "static/media/html.webp": "/portfolio/static/media/html.798b26d867c1b0f1c91f.webp",
+    "static/media/css.webp": "/portfolio/static/media/css.6e91e98e5a7b853d0c38.webp",
+    "index.html": "/portfolio/index.html",
+    "main.fdd75a39.css.map": "/portfolio/static/css/main.fdd75a39.css.map",
+    "main.7b97fe14.js.map": "/portfolio/static/js/main.7b97fe14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdd75a39.css",
+    "static/js/main.7b97fe14.js"
+  ]
+}
