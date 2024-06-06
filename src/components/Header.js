@@ -34,7 +34,7 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="#resume-link" target="_blank" without rel="noreferrer">
+            <a href="https://drive.google.com/file/d/1tgSVKP7x6ncs6MzxoKcRzF96zgJm_yLL/view?usp=sharing">
               Resume
             </a>
           </li>
@@ -59,7 +59,7 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="/#resume">Resume</a>
+            <a href="https://drive.google.com/file/d/1tgSVKP7x6ncs6MzxoKcRzF96zgJm_yLL/view?usp=sharing">Resume</a>
           </li>
         </ul>
       </nav>
