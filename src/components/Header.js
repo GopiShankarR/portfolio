@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header className="flex justify-between px-5 py-3 bg-primary text-white fixed w-full z-10">
-      <a href="/" className="logo text-2xl font-bold text-accent">
+      <a href="/portfolio" className="logo text-2xl font-bold text-accent">
         GOPI SHANKAR RAVADY
       </a>
 
