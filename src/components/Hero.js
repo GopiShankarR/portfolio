@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import HeroImg from "../assets/image.jpg";
+import { HashLink as Link } from 'react-router-hash-link';
 
 import {
   AiOutlineLinkedin,
@@ -8,6 +9,11 @@ import {
 } from "react-icons/ai";
 
 const Hero = () => {
+
+  const [toggle, setToggle] = useState(false);
+
+  const handleToggle = () => setToggle(!toggle);
+
   return (
     <section className="bg-primary px-5 text-white py-32">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
@@ -44,12 +50,9 @@ const Hero = () => {
             </a>
           </div>
           <br></br>
-          <a
-            href="/#projects"
-            className=" btn bg-accent  border-2 border-[#7477FF] text-white px-6 py-3 hover:bg-transparent"
-          >
-            See Projects
-          </a>
+          
+          <Link smooth to="/#projects" onClick={handleToggle} className=" btn bg-accent  border-2 border-[#7477FF] text-white px-6 py-3 hover:bg-transparent"> See Projects</Link>
+
         </div>
 
         <div className="hero-img">
