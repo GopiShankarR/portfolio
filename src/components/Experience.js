@@ -2,6 +2,17 @@ import React from "react";
 
 const Experience = () => {
   const experiences = {
+    "Software Engineer Intern": [
+      {
+        company: "Anokhii, Inc.",
+        location: "Remote, USA",
+        years: "August 2024 - October 2024",
+        experience: [
+          "•	Developed a React Native application with a video interface to record and assess children’s task performance, improving task evaluation efficiency by 40%",
+          "•	Implemented video recording functionality with direct upload to S3, improving upload efficiency by 30% through optimized compression and asynchronous handling"
+        ]
+      }
+    ],
     "Software Engineer": [
       {
         company: "CaratLane Trading Pvt. Ltd.",
@@ -10,9 +21,9 @@ const Experience = () => {
         experience: [
           "•  Developed scalable, high-efficiency features for a high-traffic jewelry e-commerce site using Nest.js with TypeScript, significantly enhancing performance by 20% and reducing memory usage by 30% during peak sales",
           "•	Created synchronization automation modules with Ruby on Rails to seamlessly integrate vendor products, improving efficiency by 60%, and ensuring data accuracy",
-          "•	Led the oversight of a crucial microservice, operating delivery date and time prediction using Node.js, collaborating with team members to ensure code quality, security standards, and continuous monitoring via Sonarqube",
-          "•	Guided the transition of sync architectures from a repository to distributed microservices with a 4-member team, increasing system flexibility and dependability",
-          "•	Engaged in internal Tech Talks, contributing insights, and staying updated on latest technology trends"
+          "•	Led the oversight of a crucial microservice, operating delivery date and time prediction using Node.js, collaborating with team members to ensure quality code, security standards, and continuous monitoring via Sonarqube",
+          "•	Guided the transition of sync architectures from a repository to distributed microservices, increasing system flexibility and dependability",
+          "•	Engaged in internal Tech Talks, contributing insights, and staying updated on latest technology trends like AWS Quicksight"
         ]
       },
     ],

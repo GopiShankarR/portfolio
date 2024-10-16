@@ -17,7 +17,7 @@ const Header = () => {
       <nav className="hidden md:block">
         <ul className="flex">
           <li>
-            <Link smooth to="/#about">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
             <Link smooth to="/#skills">Skills</Link>

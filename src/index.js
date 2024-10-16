@@ -2,11 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { HashRouter as Router } from 'react-router-dom';
+import { createBrowserRouter, HashRouter as Router, RouterProvider } from 'react-router-dom';
+import About from './components/About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    children: [
+      {
+        path: "/about",
+        element: <About />
+      }
+    ]
+  }
+])
 root.render(
-  <Router>
+  <RouterProvider router={router}>
     <App />
-  </Router>
+  </RouterProvider>
 );

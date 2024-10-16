@@ -8,6 +8,7 @@ import Education from './components/Education';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import About from './components/About';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Projects id="projects" />
       <Contact id="contact" />
       <Footer />
+      <Outlet />
     </>
   );
 }
