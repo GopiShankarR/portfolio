@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   const experiences = {
-    "Software Engineer Intern": [
+    "Software Engineering Intern": [
       {
         company: "Anokhii, Inc.",
         location: "Remote, USA",
