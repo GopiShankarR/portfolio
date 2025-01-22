@@ -3,6 +3,13 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
+      title: "Smart Homes Web App",
+      shortdesc: "Personal Project",
+      languages: "React.js, Java Servlets, OpenAI, MySQL, MongoDB",
+      desc: "A Smart Homes web application with a React-based UI and Java Servlets backend, utilizing MySQL and AI-driven customer service automation",
+      code: "https://github.com/GopiShankarR/smart-devices-final-react"
+    },
+    {
       title: "Yazhtzee",
       shortdesc: "Associated with Illinois Institute of Technology",
       languages: "Flutter",
@@ -20,7 +27,7 @@ const Projects = () => {
       title: "Chat Application",
       shortdesc: "Personal Project",
       languages: "Node, Flutter, MongoDB, Socket.io",
-      desc: "A full-featured chat application using socket.io for real-time bidirectional communication",
+      desc: "A full-featured chat application in Flutter using socket.io for real-time bidirectional communication",
       code: "https://github.com/GopiShankarR/flutter_with_rasa/tree/master/flutter_with_rasa"
     },
     {
