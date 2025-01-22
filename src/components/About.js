@@ -14,7 +14,7 @@ const About= () => {
           </p>
 
           <p className="font-serif pb-2">
-            In the Backend, I have learned Node.js, Nest.js, Ruby, C++, MySQL, and MongoDB
+            In the Backend, I have learned Node.js, Nest.js, Ruby, C++, MySQL, and MongoDB.
           </p>
         </div>
       </div>
