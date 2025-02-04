@@ -3,6 +3,13 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
+      title: "Chicago Transit Authority Real-Time Transit Application in Alexa",
+      shortdesc: "Personal Project",
+      languages: "Python, Flask, ngrok, Alexa Developer Console",
+      desc: "An Alexa skill that fetches real time CTA bus arrival times using Flask-Ask SDK in Python and ngrok, leveraging CTA's getVehicles API",
+      code: "https://github.com/GopiShankarR/ventra-alexa"
+    },
+    {
       title: "Smart Homes Web App",
       shortdesc: "Personal Project",
       languages: "React.js, Java Servlets, OpenAI, MySQL, MongoDB",
