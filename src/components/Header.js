@@ -35,7 +35,7 @@ const Header = () => {
             <Link smooth to="/#contact">Contact</Link>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1aMVG64sEKlL5q73Li0wTgvRMopchD3IN/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1RCtH_H6sxX6O7nn22HW8pBXRdStsj8Em/view?usp=sharing">
               Resume
             </a>
           </li>
@@ -64,7 +64,7 @@ const Header = () => {
             <Link smooth to="/#contact" onClick={handleToggle}>Contact</Link>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1aMVG64sEKlL5q73Li0wTgvRMopchD3IN/view?usp=sharing" onClick={handleToggle}>Resume</a>
+            <a href="https://drive.google.com/file/d/1RCtH_H6sxX6O7nn22HW8pBXRdStsj8Em/view?usp=sharing" onClick={handleToggle}>Resume</a>
           </li>
         </ul>
       </nav>
