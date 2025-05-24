@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import { HashLink as Link } from 'react-router-hash-link'; // Use HashLink for smooth scrolling
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -13,7 +13,6 @@ const Header = () => {
         GOPI SHANKAR RAVADY
       </Link>
 
-      {/* Desktop Nav */}
       <nav className="hidden md:block">
         <ul className="flex">
           <li>
@@ -35,14 +34,13 @@ const Header = () => {
             <Link smooth to="/#contact">Contact</Link>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1RCtH_H6sxX6O7nn22HW8pBXRdStsj8Em/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1xmcCfo2hM32uiqmjnmxh9GZOzTZKwcuC/view?usp=sharing">
               Resume
             </a>
           </li>
         </ul>
       </nav>
 
-      {/* Mobile Nav */}
       <nav className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}>
         <ul className="flex flex-col">
           <li>
@@ -64,12 +62,11 @@ const Header = () => {
             <Link smooth to="/#contact" onClick={handleToggle}>Contact</Link>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1RCtH_H6sxX6O7nn22HW8pBXRdStsj8Em/view?usp=sharing" onClick={handleToggle}>Resume</a>
+            <a href="https://drive.google.com/file/d/1xmcCfo2hM32uiqmjnmxh9GZOzTZKwcuC/view?usp=sharing" onClick={handleToggle}>Resume</a>
           </li>
         </ul>
       </nav>
 
-      {/* Toggle button */}
       <button onClick={handleToggle} className="block md:hidden">
         {!toggle ? <AiOutlineMenu size={30} /> : <AiOutlineClose size={30} />}
       </button>

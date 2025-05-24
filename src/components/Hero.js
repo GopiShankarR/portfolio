@@ -43,7 +43,7 @@ const Hero = () => {
               <AiOutlineGithub size={40} />
             </a>
             <a
-              href="https://drive.google.com/file/d/1RCtH_H6sxX6O7nn22HW8pBXRdStsj8Em/view?usp=sharing"
+              href="https://drive.google.com/file/d/1xmcCfo2hM32uiqmjnmxh9GZOzTZKwcuC/view?usp=sharing"
               className="pr-4 inline-block text-accent hover:text-white"
             >
               <AiOutlineFilePdf size={40} />
